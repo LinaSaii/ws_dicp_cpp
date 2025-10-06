@@ -1,0 +1,37 @@
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:[m[K In member function ‘[01m[Kvoid DopplerICPStitcher::process_next_frame()[m[K’:
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:212:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Klambda_doppler_start[m[K’
+  212 |     0.14 ,0.3, 3.0, 5
+      |                      [01;31m[K^[m[K
+      |                      [32m[K)[m[K
+  213 |     [32m[Klambda_doppler_start[m[K,
+      |     [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:209:28:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  209 |     auto res = solver.solve[01;36m[K([m[K
+      |                            [01;36m[K^[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:215:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klambda_schedule_iters[m[K’ was not declared in this scope; did you mean ‘[01m[Klambda_schedule_iters_[m[K’?
+  215 |     [01;31m[Klambda_schedule_iters[m[K,
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Klambda_schedule_iters_[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:216:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometric_min_iters[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometric_min_iters_[m[K’?
+  216 |     [01;31m[Kgeometric_min_iters[m[K,
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kgeometric_min_iters_[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:217:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdoppler_min_iters[m[K’ was not declared in this scope; did you mean ‘[01m[Kdoppler_min_iters_[m[K’?
+  217 |     [01;31m[Kdoppler_min_iters[m[K,
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kdoppler_min_iters_[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:218:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kreject_outliers[m[K’ was not declared in this scope; did you mean ‘[01m[Kreject_outliers_[m[K’?
+  218 |     [01;31m[Kreject_outliers[m[K,
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Kreject_outliers_[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:219:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koutlier_thresh[m[K’ was not declared in this scope; did you mean ‘[01m[Koutlier_thresh_[m[K’?
+  219 |     [01;31m[Koutlier_thresh[m[K,
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Koutlier_thresh_[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:220:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krejection_min_iters[m[K’ was not declared in this scope; did you mean ‘[01m[Krejection_min_iters_[m[K’?
+  220 |     [01;31m[Krejection_min_iters[m[K
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krejection_min_iters_[m[K
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:90: CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

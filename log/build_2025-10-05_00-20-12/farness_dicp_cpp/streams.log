@@ -1,0 +1,120 @@
+[0.007s] Invoking command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake /home/farness/ws_dicp_cpp/src/farness_dicp_cpp -DCMAKE_INSTALL_PREFIX=/home/farness/ws_dicp_cpp/install/farness_dicp_cpp
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.546s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.632s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.635s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.640s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.685s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.687s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.754s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.783s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.819s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.825s] -- Looking for pthread.h
+[0.893s] -- Looking for pthread.h - found
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.972s] -- Found Threads: TRUE  
+[1.012s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.033s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.098s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.110s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.137s] -- Checking for module 'eigen3'
+[1.154s] --   Found eigen3, version 3.4.0
+[1.200s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.200s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.229s] -- Checking for module 'flann'
+[1.241s] --   Found flann, version 1.9.1
+[1.292s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.292s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.362s] -- Checking for module 'libusb-1.0'
+[2.381s] --   Found libusb-1.0, version 1.0.25
+[2.429s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.431s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.509s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.640s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.646s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.652s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.769s] -- Found Qhull version 8.0.2
+[2.892s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.990s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.990s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.991s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.991s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.993s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.994s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.994s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.994s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.995s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.995s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.996s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.997s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.997s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.998s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.999s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.999s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.000s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.001s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.002s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.002s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.003s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.003s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.003s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.004s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.004s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.078s] -- Configuring done
+[3.098s] -- Generating done
+[3.104s] -- Build files have been written to: /home/farness/ws_dicp_cpp/build/farness_dicp_cpp
+[3.115s] Invoked command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake /home/farness/ws_dicp_cpp/src/farness_dicp_cpp -DCMAKE_INSTALL_PREFIX=/home/farness/ws_dicp_cpp/install/farness_dicp_cpp
+[3.117s] Invoking command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --build /home/farness/ws_dicp_cpp/build/farness_dicp_cpp -- -j16 -l16
+[3.180s] [ 16%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_node.cpp.o[0m
+[3.180s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/doppler_icp_solver.cpp.o[0m
+[3.180s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o[0m
+[3.180s] [ 66%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/math_utils.cpp.o[0m
+[3.182s] [ 83%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/pointcloud_loader.cpp.o[0m
+[17.543s] [100%] [32m[1mLinking CXX executable main_node[0m
+[18.927s] [100%] Built target main_node
+[18.938s] Invoked command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --build /home/farness/ws_dicp_cpp/build/farness_dicp_cpp -- -j16 -l16
+[18.950s] Invoking command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --install /home/farness/ws_dicp_cpp/build/farness_dicp_cpp
+[18.960s] -- Install configuration: ""
+[18.960s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/lib/farness_dicp_cpp/main_node
+[18.969s] -- Set runtime path of "/home/farness/ws_dicp_cpp/install/farness_dicp_cpp/lib/farness_dicp_cpp/main_node" to ""
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include/
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/math_utils.hpp
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/doppler_icp_solver.hpp
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/pointcloud_loader.hpp
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/doppler_icp_stitcher.hpp
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/launch
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/launch/dicp_stitcher.launch.py
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/config/dicp_params.yaml
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/package_run_dependencies/farness_dicp_cpp
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/parent_prefix_path/farness_dicp_cpp
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/ament_prefix_path.sh
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/ament_prefix_path.dsv
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/path.sh
+[18.969s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/path.dsv
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.bash
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.sh
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.zsh
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.dsv
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/package.dsv
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/packages/farness_dicp_cpp
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/cmake/farness_dicp_cppConfig.cmake
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/cmake/farness_dicp_cppConfig-version.cmake
+[18.970s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/package.xml
+[18.972s] Invoked command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --install /home/farness/ws_dicp_cpp/build/farness_dicp_cpp

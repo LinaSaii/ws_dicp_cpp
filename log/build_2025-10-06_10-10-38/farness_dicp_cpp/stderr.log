@@ -1,0 +1,67 @@
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:[m[K In constructor ‘[01m[KDopplerICPStitcher::DopplerICPStitcher(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:53:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDopplerICPStitcher::declare_parameter<double>(const char [7], int, int)[m[K’
+   53 |     [01;31m[Kthis->declare_parameter<double>("t_vl_x", 0,3)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/include/farness_dicp_cpp/doppler_icp_stitcher.hpp:3[m[K,
+                 from [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = double; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+  195 | [01;36m[KNode[m[K::declare_parameter(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:198:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  198 |   [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = double; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+  215 | [01;36m[KNode[m[K::declare_parameter(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:217:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  217 |   [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:54:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDopplerICPStitcher::declare_parameter<double>(const char [7], int, int)[m[K’
+   54 |     [01;31m[Kthis->declare_parameter<double>("t_vl_y", 1,3)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/include/farness_dicp_cpp/doppler_icp_stitcher.hpp:3[m[K,
+                 from [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = double; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+  195 | [01;36m[KNode[m[K::declare_parameter(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:198:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  198 |   [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = double; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+  215 | [01;36m[KNode[m[K::declare_parameter(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:217:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  217 |   [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:55:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDopplerICPStitcher::declare_parameter<double>(const char [7], int, int)[m[K’
+   55 |     [01;31m[Kthis->declare_parameter<double>("t_vl_z", 2,3)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/include/farness_dicp_cpp/doppler_icp_stitcher.hpp:3[m[K,
+                 from [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = double; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+  195 | [01;36m[KNode[m[K::declare_parameter(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:198:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  198 |   [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:215:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = double; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+  215 | [01;36m[KNode[m[K::declare_parameter(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:217:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  217 |   [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:90: CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

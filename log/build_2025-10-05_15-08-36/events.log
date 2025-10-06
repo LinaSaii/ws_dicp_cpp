@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (farness_dicp_cpp) JobQueued: {'identifier': 'farness_dicp_cpp', 'dependencies': OrderedDict()}
+[0.000316] (farness_dicp_cpp) JobStarted: {'identifier': 'farness_dicp_cpp'}
+[0.006127] (farness_dicp_cpp) JobProgress: {'identifier': 'farness_dicp_cpp', 'progress': 'cmake'}
+[0.007187] (farness_dicp_cpp) JobProgress: {'identifier': 'farness_dicp_cpp', 'progress': 'build'}
+[0.008146] (farness_dicp_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp', '--', '-j16', '-l16'], 'cwd': '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'farness'), ('LC_TIME', 'ar_TN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/farness/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/207/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farness'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.104.1'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/207/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/farness/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/207/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/207/usr/share/code/code'), ('MANAGERPID', '1197'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1761'), ('BUNDLED_DEBUGPY_PATH', '/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2987'), ('COLCON_PREFIX_PATH', '/home/farness/ws_dicp_cpp/install:/home/farness/ws_new/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'farness'), ('JOURNAL_STREAM', '8:11443'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'farness'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/farness/.local/bin:/opt/ros/humble/bin:/home/farness/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/farness/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/farness-G5-KF5:@/tmp/.ICE-unix/1738,unix/farness-G5-KF5:/tmp/.ICE-unix/1738'), ('GTK_EXE_PREFIX', '/snap/code/207/usr'), ('INVOCATION_ID', '3b56f6cd0b8047dab6f92b620d0e7ebc'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/207/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7734703ecf7fc26e.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/farness/.config/Code/User/workspaceStorage/544112164b6dd3af77a1b998b6f10dcd/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/farness/snap/code/207/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3ac8087aca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/farness/snap/code/207/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/home/farness/ws_dicp_cpp/install/farness_dicp_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/home/farness/snap/code/207/.local/share:/home/farness/snap/code/207:/snap/code/207/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/farness/ws_new/install/lidar_frame_stitching/lib/python3.10/site-packages:/home/farness/ws_new/install/farness_dicp/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/farness/ws_dicp_cpp/install/farness_dicp_cpp:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble')]), 'shell': False}
+[0.058295] (farness_dicp_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main_node\x1b[0m\n'}
+[0.082812] (farness_dicp_cpp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/main_node.dir/src/main_node.cpp.o\x1b[0m\n'}
+[0.084990] (farness_dicp_cpp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o\x1b[0m\n'}
+[0.099684] (-) TimerEvent: {}
+[0.200024] (-) TimerEvent: {}
+[0.300271] (-) TimerEvent: {}
+[0.400585] (-) TimerEvent: {}
+[0.500832] (-) TimerEvent: {}
+[0.601101] (-) TimerEvent: {}
+[0.701373] (-) TimerEvent: {}
+[0.801601] (-) TimerEvent: {}
+[0.901840] (-) TimerEvent: {}
+[1.002063] (-) TimerEvent: {}
+[1.102316] (-) TimerEvent: {}
+[1.202572] (-) TimerEvent: {}
+[1.302831] (-) TimerEvent: {}
+[1.403050] (-) TimerEvent: {}
+[1.503302] (-) TimerEvent: {}
+[1.603568] (-) TimerEvent: {}
+[1.703818] (-) TimerEvent: {}
+[1.804048] (-) TimerEvent: {}
+[1.904311] (-) TimerEvent: {}
+[2.004565] (-) TimerEvent: {}
+[2.104842] (-) TimerEvent: {}
+[2.205064] (-) TimerEvent: {}
+[2.305326] (-) TimerEvent: {}
+[2.405571] (-) TimerEvent: {}
+[2.505830] (-) TimerEvent: {}
+[2.606059] (-) TimerEvent: {}
+[2.706282] (-) TimerEvent: {}
+[2.806538] (-) TimerEvent: {}
+[2.906800] (-) TimerEvent: {}
+[3.007031] (-) TimerEvent: {}
+[3.107295] (-) TimerEvent: {}
+[3.207510] (-) TimerEvent: {}
+[3.307781] (-) TimerEvent: {}
+[3.395804] (farness_dicp_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.395947] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.396004] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.396038] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.396070] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.396100] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.396131] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/include/farness_dicp_cpp/doppler_icp_stitcher.hpp:3\x1b[m\x1b[K,\n'}
+[3.396161] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:1\x1b[m\x1b[K:\n'}
+[3.396192] (farness_dicp_cpp) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (DopplerICPStitcher::*)(const std::vector<LidarPoint>&), DopplerICPStitcher*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.396223] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (DopplerICPStitcher::*)(const std::vector<LidarPoint>&), DopplerICPStitcher*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.396255] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (DopplerICPStitcher::*)(const std::vector<LidarPoint>&); _BoundArgs = {DopplerICPStitcher*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.396288] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:91:18:\x1b[m\x1b[K   required from here\n'}
+[3.396319] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[3.396352] (farness_dicp_cpp) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[3.396382] (farness_dicp_cpp) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[3.396412] (farness_dicp_cpp) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[3.396440] (farness_dicp_cpp) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396469] (farness_dicp_cpp) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[3.396498] (farness_dicp_cpp) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396525] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[3.398928] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDopplerICPStitcher::DopplerICPStitcher(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.399105] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:89:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDopplerICPStitcher::create_wall_timer(std::chrono::duration<double>, std::_Bind_helper<false, void (DopplerICPStitcher::*)(const std::vector<LidarPoint>&), DopplerICPStitcher*>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.399158] (farness_dicp_cpp) StderrLine: {'line': b'   89 |     publish_timer_ = \x1b[01;31m\x1b[Kthis->create_wall_timer(\x1b[m\x1b[K\n'}
+[3.399199] (farness_dicp_cpp) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.399240] (farness_dicp_cpp) StderrLine: {'line': b'   90 | \x1b[01;31m\x1b[K        std::chrono::duration<double>(1.0 / publish_rate_),\x1b[m\x1b[K\n'}
+[3.399277] (farness_dicp_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.399314] (farness_dicp_cpp) StderrLine: {'line': b'   91 | \x1b[01;31m\x1b[K        std::bind(&DopplerICPStitcher::publish_outputs, this)\x1b[m\x1b[K\n'}
+[3.399349] (farness_dicp_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.399385] (farness_dicp_cpp) StderrLine: {'line': b'   92 | \x1b[01;31m\x1b[K    )\x1b[m\x1b[K;\n'}
+[3.399421] (farness_dicp_cpp) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                        \n'}
+[3.399457] (farness_dicp_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.399495] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.399528] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.399564] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/include/farness_dicp_cpp/doppler_icp_stitcher.hpp:3\x1b[m\x1b[K,\n'}
+[3.399603] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:1\x1b[m\x1b[K:\n'}
+[3.399638] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.399679] (farness_dicp_cpp) StderrLine: {'line': b'  238 |   \x1b[01;36m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[3.399715] (farness_dicp_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.399756] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.399793] (farness_dicp_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[3.399829] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.399864] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.399900] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.399936] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/include/farness_dicp_cpp/doppler_icp_stitcher.hpp:3\x1b[m\x1b[K,\n'}
+[3.399971] (farness_dicp_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:1\x1b[m\x1b[K:\n'}
+[3.400006] (farness_dicp_cpp) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = double; DurationT = std::ratio<1>; CallbackT = std::_Bind<void (DopplerICPStitcher::*(DopplerICPStitcher*))(const std::vector<LidarPoint>&)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.400044] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:89:45:\x1b[m\x1b[K   required from here\n'}
+[3.400080] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.400115] (farness_dicp_cpp) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KNode\x1b[m\x1b[K::create_wall_timer(\n'}
+[3.400148] (farness_dicp_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.400181] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.400215] (farness_dicp_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[3.407858] (-) TimerEvent: {}
+[3.508060] (-) TimerEvent: {}
+[3.608334] (-) TimerEvent: {}
+[3.708691] (-) TimerEvent: {}
+[3.808921] (-) TimerEvent: {}
+[3.909136] (-) TimerEvent: {}
+[4.009364] (-) TimerEvent: {}
+[4.109626] (-) TimerEvent: {}
+[4.209864] (-) TimerEvent: {}
+[4.310084] (-) TimerEvent: {}
+[4.410404] (-) TimerEvent: {}
+[4.510628] (-) TimerEvent: {}
+[4.610887] (-) TimerEvent: {}
+[4.711131] (-) TimerEvent: {}
+[4.811402] (-) TimerEvent: {}
+[4.911719] (-) TimerEvent: {}
+[5.011953] (-) TimerEvent: {}
+[5.112201] (-) TimerEvent: {}
+[5.212453] (-) TimerEvent: {}
+[5.312790] (-) TimerEvent: {}
+[5.413014] (-) TimerEvent: {}
+[5.513275] (-) TimerEvent: {}
+[5.613509] (-) TimerEvent: {}
+[5.713859] (-) TimerEvent: {}
+[5.814092] (-) TimerEvent: {}
+[5.914433] (-) TimerEvent: {}
+[6.014659] (-) TimerEvent: {}
+[6.114886] (-) TimerEvent: {}
+[6.215110] (-) TimerEvent: {}
+[6.315446] (-) TimerEvent: {}
+[6.415792] (-) TimerEvent: {}
+[6.516067] (-) TimerEvent: {}
+[6.616328] (-) TimerEvent: {}
+[6.716581] (-) TimerEvent: {}
+[6.816891] (-) TimerEvent: {}
+[6.917127] (-) TimerEvent: {}
+[7.017355] (-) TimerEvent: {}
+[7.117587] (-) TimerEvent: {}
+[7.217786] (-) TimerEvent: {}
+[7.318009] (-) TimerEvent: {}
+[7.418262] (-) TimerEvent: {}
+[7.481695] (farness_dicp_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/main_node.dir/build.make:90: CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o] Error 1\n'}
+[7.481848] (farness_dicp_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2\n'}
+[7.481987] (farness_dicp_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.483955] (farness_dicp_cpp) CommandEnded: {'returncode': 2}
+[7.493384] (farness_dicp_cpp) JobEnded: {'identifier': 'farness_dicp_cpp', 'rc': 2}
+[7.503827] (-) EventReactorShutdown: {}

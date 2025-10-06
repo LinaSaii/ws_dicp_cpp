@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000451] (farness_dicp_cpp) JobQueued: {'identifier': 'farness_dicp_cpp', 'dependencies': OrderedDict()}
+[0.000690] (farness_dicp_cpp) JobStarted: {'identifier': 'farness_dicp_cpp'}
+[0.006828] (farness_dicp_cpp) JobProgress: {'identifier': 'farness_dicp_cpp', 'progress': 'cmake'}
+[0.007888] (farness_dicp_cpp) JobProgress: {'identifier': 'farness_dicp_cpp', 'progress': 'build'}
+[0.008881] (farness_dicp_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp', '--', '-j16', '-l16'], 'cwd': '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'farness'), ('LC_TIME', 'ar_TN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/farness/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/207/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farness'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.104.1'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/207/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/farness/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/207/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/207/usr/share/code/code'), ('MANAGERPID', '1171'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1684'), ('BUNDLED_DEBUGPY_PATH', '/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4061'), ('COLCON_PREFIX_PATH', '/home/farness/ws_dicp_cpp/install:/home/farness/ws_new/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'farness'), ('JOURNAL_STREAM', '8:1510'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'farness'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/farness/.local/bin:/opt/ros/humble/bin:/home/farness/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/farness/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/farness-G5-KF5:@/tmp/.ICE-unix/1658,unix/farness-G5-KF5:/tmp/.ICE-unix/1658'), ('GTK_EXE_PREFIX', '/snap/code/207/usr'), ('INVOCATION_ID', 'd0104e215eb2431a8bf8e6060343a091'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/207/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7734703ecf7fc26e.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/farness/.config/Code/User/workspaceStorage/544112164b6dd3af77a1b998b6f10dcd/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/farness/snap/code/207/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3ac8087aca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/farness/snap/code/207/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/home/farness/ws_dicp_cpp/install/farness_dicp_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/home/farness/snap/code/207/.local/share:/home/farness/snap/code/207:/snap/code/207/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/farness/ws_new/install/lidar_frame_stitching/lib/python3.10/site-packages:/home/farness/ws_new/install/farness_dicp/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/farness/ws_dicp_cpp/install/farness_dicp_cpp:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble')]), 'shell': False}
+[0.077072] (farness_dicp_cpp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o\x1b[0m\n'}
+[0.099674] (-) TimerEvent: {}
+[0.200009] (-) TimerEvent: {}
+[0.300343] (-) TimerEvent: {}
+[0.400744] (-) TimerEvent: {}
+[0.501152] (-) TimerEvent: {}
+[0.601475] (-) TimerEvent: {}
+[0.701703] (-) TimerEvent: {}
+[0.801966] (-) TimerEvent: {}
+[0.902201] (-) TimerEvent: {}
+[1.002454] (-) TimerEvent: {}
+[1.102799] (-) TimerEvent: {}
+[1.203150] (-) TimerEvent: {}
+[1.303385] (-) TimerEvent: {}
+[1.403624] (-) TimerEvent: {}
+[1.503928] (-) TimerEvent: {}
+[1.604180] (-) TimerEvent: {}
+[1.704478] (-) TimerEvent: {}
+[1.804708] (-) TimerEvent: {}
+[1.904945] (-) TimerEvent: {}
+[2.005206] (-) TimerEvent: {}
+[2.105517] (-) TimerEvent: {}
+[2.205854] (-) TimerEvent: {}
+[2.306203] (-) TimerEvent: {}
+[2.406512] (-) TimerEvent: {}
+[2.506869] (-) TimerEvent: {}
+[2.607128] (-) TimerEvent: {}
+[2.707379] (-) TimerEvent: {}
+[2.807652] (-) TimerEvent: {}
+[2.907949] (-) TimerEvent: {}
+[3.008305] (-) TimerEvent: {}
+[3.108567] (-) TimerEvent: {}
+[3.208845] (-) TimerEvent: {}
+[3.309110] (-) TimerEvent: {}
+[3.409353] (-) TimerEvent: {}
+[3.509625] (-) TimerEvent: {}
+[3.609962] (-) TimerEvent: {}
+[3.710244] (-) TimerEvent: {}
+[3.810507] (-) TimerEvent: {}
+[3.910777] (-) TimerEvent: {}
+[4.011056] (-) TimerEvent: {}
+[4.111329] (-) TimerEvent: {}
+[4.211609] (-) TimerEvent: {}
+[4.311915] (-) TimerEvent: {}
+[4.412141] (-) TimerEvent: {}
+[4.512374] (-) TimerEvent: {}
+[4.612650] (-) TimerEvent: {}
+[4.712894] (-) TimerEvent: {}
+[4.813168] (-) TimerEvent: {}
+[4.913496] (-) TimerEvent: {}
+[5.013788] (-) TimerEvent: {}
+[5.114040] (-) TimerEvent: {}
+[5.214331] (-) TimerEvent: {}
+[5.314673] (-) TimerEvent: {}
+[5.415052] (-) TimerEvent: {}
+[5.515303] (-) TimerEvent: {}
+[5.615586] (-) TimerEvent: {}
+[5.715867] (-) TimerEvent: {}
+[5.816114] (-) TimerEvent: {}
+[5.916374] (-) TimerEvent: {}
+[6.016652] (-) TimerEvent: {}
+[6.116945] (-) TimerEvent: {}
+[6.217258] (-) TimerEvent: {}
+[6.317601] (-) TimerEvent: {}
+[6.417934] (-) TimerEvent: {}
+[6.518321] (-) TimerEvent: {}
+[6.618662] (-) TimerEvent: {}
+[6.719054] (-) TimerEvent: {}
+[6.819364] (-) TimerEvent: {}
+[6.919725] (-) TimerEvent: {}
+[7.020079] (-) TimerEvent: {}
+[7.120318] (-) TimerEvent: {}
+[7.220551] (-) TimerEvent: {}
+[7.320816] (-) TimerEvent: {}
+[7.421081] (-) TimerEvent: {}
+[7.521309] (-) TimerEvent: {}
+[7.621580] (-) TimerEvent: {}
+[7.721869] (-) TimerEvent: {}
+[7.822112] (-) TimerEvent: {}
+[7.922376] (-) TimerEvent: {}
+[8.022673] (-) TimerEvent: {}
+[8.122946] (-) TimerEvent: {}
+[8.223178] (-) TimerEvent: {}
+[8.323442] (-) TimerEvent: {}
+[8.423703] (-) TimerEvent: {}
+[8.523944] (-) TimerEvent: {}
+[8.624220] (-) TimerEvent: {}
+[8.724550] (-) TimerEvent: {}
+[8.824830] (-) TimerEvent: {}
+[8.925118] (-) TimerEvent: {}
+[9.025356] (-) TimerEvent: {}
+[9.125658] (-) TimerEvent: {}
+[9.225919] (-) TimerEvent: {}
+[9.326195] (-) TimerEvent: {}
+[9.426474] (-) TimerEvent: {}
+[9.526745] (-) TimerEvent: {}
+[9.627015] (-) TimerEvent: {}
+[9.727355] (-) TimerEvent: {}
+[9.827788] (-) TimerEvent: {}
+[9.928182] (-) TimerEvent: {}
+[10.028430] (-) TimerEvent: {}
+[10.128721] (-) TimerEvent: {}
+[10.229007] (-) TimerEvent: {}
+[10.329267] (-) TimerEvent: {}
+[10.429549] (-) TimerEvent: {}
+[10.529877] (-) TimerEvent: {}
+[10.630072] (-) TimerEvent: {}
+[10.730310] (-) TimerEvent: {}
+[10.830589] (-) TimerEvent: {}
+[10.930952] (-) TimerEvent: {}
+[11.031194] (-) TimerEvent: {}
+[11.131473] (-) TimerEvent: {}
+[11.231734] (-) TimerEvent: {}
+[11.332061] (-) TimerEvent: {}
+[11.432289] (-) TimerEvent: {}
+[11.532545] (-) TimerEvent: {}
+[11.632877] (-) TimerEvent: {}
+[11.733118] (-) TimerEvent: {}
+[11.833342] (-) TimerEvent: {}
+[11.933587] (-) TimerEvent: {}
+[12.033954] (-) TimerEvent: {}
+[12.134258] (-) TimerEvent: {}
+[12.234864] (-) TimerEvent: {}
+[12.335080] (-) TimerEvent: {}
+[12.435477] (-) TimerEvent: {}
+[12.535850] (-) TimerEvent: {}
+[12.636222] (-) TimerEvent: {}
+[12.736491] (-) TimerEvent: {}
+[12.836856] (-) TimerEvent: {}
+[12.937187] (-) TimerEvent: {}
+[13.037412] (-) TimerEvent: {}
+[13.137639] (-) TimerEvent: {}
+[13.237995] (-) TimerEvent: {}
+[13.338228] (-) TimerEvent: {}
+[13.438525] (-) TimerEvent: {}
+[13.538946] (-) TimerEvent: {}
+[13.639273] (-) TimerEvent: {}
+[13.739568] (-) TimerEvent: {}
+[13.839891] (-) TimerEvent: {}
+[13.940224] (-) TimerEvent: {}
+[14.040528] (-) TimerEvent: {}
+[14.140853] (-) TimerEvent: {}
+[14.241207] (-) TimerEvent: {}
+[14.341613] (-) TimerEvent: {}
+[14.442052] (-) TimerEvent: {}
+[14.542526] (-) TimerEvent: {}
+[14.642776] (-) TimerEvent: {}
+[14.743043] (-) TimerEvent: {}
+[14.843295] (-) TimerEvent: {}
+[14.943551] (-) TimerEvent: {}
+[15.043803] (-) TimerEvent: {}
+[15.144066] (-) TimerEvent: {}
+[15.244322] (-) TimerEvent: {}
+[15.344576] (-) TimerEvent: {}
+[15.444829] (-) TimerEvent: {}
+[15.545089] (-) TimerEvent: {}
+[15.645340] (-) TimerEvent: {}
+[15.745599] (-) TimerEvent: {}
+[15.845851] (-) TimerEvent: {}
+[15.946108] (-) TimerEvent: {}
+[16.046443] (-) TimerEvent: {}
+[16.146777] (-) TimerEvent: {}
+[16.247104] (-) TimerEvent: {}
+[16.347335] (-) TimerEvent: {}
+[16.447564] (-) TimerEvent: {}
+[16.547895] (-) TimerEvent: {}
+[16.648343] (-) TimerEvent: {}
+[16.748676] (-) TimerEvent: {}
+[16.849039] (-) TimerEvent: {}
+[16.949370] (-) TimerEvent: {}
+[17.032486] (farness_dicp_cpp) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable main_node\x1b[0m\n'}
+[17.049571] (-) TimerEvent: {}
+[17.149871] (-) TimerEvent: {}
+[17.250261] (-) TimerEvent: {}
+[17.350646] (-) TimerEvent: {}
+[17.450900] (-) TimerEvent: {}
+[17.551317] (-) TimerEvent: {}
+[17.651568] (-) TimerEvent: {}
+[17.751813] (-) TimerEvent: {}
+[17.852178] (-) TimerEvent: {}
+[17.952461] (-) TimerEvent: {}
+[18.052758] (-) TimerEvent: {}
+[18.153030] (-) TimerEvent: {}
+[18.253271] (-) TimerEvent: {}
+[18.353614] (-) TimerEvent: {}
+[18.453901] (-) TimerEvent: {}
+[18.554181] (-) TimerEvent: {}
+[18.589046] (farness_dicp_cpp) StdoutLine: {'line': b'[100%] Built target main_node\n'}
+[18.597729] (farness_dicp_cpp) CommandEnded: {'returncode': 0}
+[18.598554] (farness_dicp_cpp) JobProgress: {'identifier': 'farness_dicp_cpp', 'progress': 'install'}
+[18.604822] (farness_dicp_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp'], 'cwd': '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'farness'), ('LC_TIME', 'ar_TN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/farness/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/207/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farness'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.104.1'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/207/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/farness/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/207/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/207/usr/share/code/code'), ('MANAGERPID', '1171'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1684'), ('BUNDLED_DEBUGPY_PATH', '/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4061'), ('COLCON_PREFIX_PATH', '/home/farness/ws_dicp_cpp/install:/home/farness/ws_new/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'farness'), ('JOURNAL_STREAM', '8:1510'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'farness'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/farness/.local/bin:/opt/ros/humble/bin:/home/farness/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/farness/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/farness-G5-KF5:@/tmp/.ICE-unix/1658,unix/farness-G5-KF5:/tmp/.ICE-unix/1658'), ('GTK_EXE_PREFIX', '/snap/code/207/usr'), ('INVOCATION_ID', 'd0104e215eb2431a8bf8e6060343a091'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/207/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/farness/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7734703ecf7fc26e.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/farness/.config/Code/User/workspaceStorage/544112164b6dd3af77a1b998b6f10dcd/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/farness/snap/code/207/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3ac8087aca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/farness/snap/code/207/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/home/farness/ws_dicp_cpp/install/farness_dicp_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/home/farness/snap/code/207/.local/share:/home/farness/snap/code/207:/snap/code/207/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/farness/ws_new/install/lidar_frame_stitching/lib/python3.10/site-packages:/home/farness/ws_new/install/farness_dicp/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/farness/ws_dicp_cpp/install/farness_dicp_cpp:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble')]), 'shell': False}
+[18.610533] (farness_dicp_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.610715] (farness_dicp_cpp) StdoutLine: {'line': b'-- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/lib/farness_dicp_cpp/main_node\n'}
+[18.618290] (farness_dicp_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/farness/ws_dicp_cpp/install/farness_dicp_cpp/lib/farness_dicp_cpp/main_node" to ""\n'}
+[18.618379] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include/\n'}
+[18.618420] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp\n'}
+[18.618456] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/math_utils.hpp\n'}
+[18.618487] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/doppler_icp_solver.hpp\n'}
+[18.618520] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/pointcloud_loader.hpp\n'}
+[18.618550] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/doppler_icp_stitcher.hpp\n'}
+[18.618580] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/launch\n'}
+[18.618756] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/launch/dicp_stitcher.launch.py\n'}
+[18.618800] (farness_dicp_cpp) StdoutLine: {'line': b'-- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/config/dicp_params.yaml\n'}
+[18.618834] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/package_run_dependencies/farness_dicp_cpp\n'}
+[18.618867] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/parent_prefix_path/farness_dicp_cpp\n'}
+[18.618897] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/ament_prefix_path.sh\n'}
+[18.618928] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/ament_prefix_path.dsv\n'}
+[18.618959] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/path.sh\n'}
+[18.618993] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/path.dsv\n'}
+[18.619027] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.bash\n'}
+[18.619059] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.sh\n'}
+[18.619088] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.zsh\n'}
+[18.619117] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.dsv\n'}
+[18.619147] (farness_dicp_cpp) StdoutLine: {'line': b'-- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/package.dsv\n'}
+[18.619177] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/packages/farness_dicp_cpp\n'}
+[18.619206] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/cmake/farness_dicp_cppConfig.cmake\n'}
+[18.619239] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/cmake/farness_dicp_cppConfig-version.cmake\n'}
+[18.619268] (farness_dicp_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/package.xml\n'}
+[18.619937] (farness_dicp_cpp) CommandEnded: {'returncode': 0}
+[18.630035] (farness_dicp_cpp) JobEnded: {'identifier': 'farness_dicp_cpp', 'rc': 0}
+[18.630536] (-) EventReactorShutdown: {}

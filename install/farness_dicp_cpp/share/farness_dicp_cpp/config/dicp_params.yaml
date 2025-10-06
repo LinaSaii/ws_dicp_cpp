@@ -1,0 +1,40 @@
+doppler_icp_stitcher:
+  ros__parameters:
+
+    frames_directory: "/home/farness/Bureau/Curved walls dataset"
+    velocity_threshold: 20.0
+    downsample_factor: 1
+    max_iterations: 30
+    tolerance: 1e-6
+    publish_rate :  10.0
+    lambda_doppler_start: 0.05 
+    lambda_doppler_end: 0.1  
+    lambda_schedule_iters: 0
+    frame_dt: 0.1
+    t_vl_x: 0.0
+    t_vl_y: 0.0
+    t_vl_z: 0.0
+    reject_outliers: true
+    outlier_thresh: 0.4
+    rejection_min_iters: 2
+    geometric_min_iters: 0
+    doppler_min_iters: 8
+    geom_k: 0.4
+    doppler_k: 0.15
+    max_corr_dist: 1.0
+    min_inliers: 8
+    buffer_size: 5
+    voxel_size: 0.4
+    base_frame_id: "base_link"
+    map_frame_id: "map"
+    publish_pose: true
+    publish_trajectory: true
+    publish_cloud: true
+    pose_topic: "/icp_pose"
+    traj_topic: "/icp_trajectory"
+    cloud_topic: "/stitched_cloud"
+    lin_acc_topic: "/linear_acceleration"
+    ang_vel_topic: "/angular_velocity"
+
+    
+  

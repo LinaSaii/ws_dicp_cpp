@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --build /home/farness/ws_dicp_cpp/build/farness_dicp_cpp -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[0.092s] [ 16%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o[0m
+[3.779s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:[m[K In member function ‘[01m[Kvoid DopplerICPStitcher::process_next_frame()[m[K’:
+[3.779s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:212:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Klambda_doppler_start[m[K’
+[3.779s]   212 |     0.14 ,0.3, 3.0, 5
+[3.779s]       |                      [01;31m[K^[m[K
+[3.779s]       |                      [32m[K)[m[K
+[3.779s]   213 |     [32m[Klambda_doppler_start[m[K,
+[3.779s]       |     [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[3.779s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:209:28:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.779s]   209 |     auto res = solver.solve[01;36m[K([m[K
+[3.779s]       |                            [01;36m[K^[m[K
+[3.786s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:215:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klambda_schedule_iters[m[K’ was not declared in this scope; did you mean ‘[01m[Klambda_schedule_iters_[m[K’?
+[3.786s]   215 |     [01;31m[Klambda_schedule_iters[m[K,
+[3.787s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.787s]       |     [32m[Klambda_schedule_iters_[m[K
+[3.793s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:216:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometric_min_iters[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometric_min_iters_[m[K’?
+[3.793s]   216 |     [01;31m[Kgeometric_min_iters[m[K,
+[3.793s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.793s]       |     [32m[Kgeometric_min_iters_[m[K
+[3.799s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:217:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdoppler_min_iters[m[K’ was not declared in this scope; did you mean ‘[01m[Kdoppler_min_iters_[m[K’?
+[3.799s]   217 |     [01;31m[Kdoppler_min_iters[m[K,
+[3.799s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.799s]       |     [32m[Kdoppler_min_iters_[m[K
+[3.804s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:218:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kreject_outliers[m[K’ was not declared in this scope; did you mean ‘[01m[Kreject_outliers_[m[K’?
+[3.804s]   218 |     [01;31m[Kreject_outliers[m[K,
+[3.804s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.804s]       |     [32m[Kreject_outliers_[m[K
+[3.809s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:219:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koutlier_thresh[m[K’ was not declared in this scope; did you mean ‘[01m[Koutlier_thresh_[m[K’?
+[3.809s]   219 |     [01;31m[Koutlier_thresh[m[K,
+[3.809s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.809s]       |     [32m[Koutlier_thresh_[m[K
+[3.815s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_stitcher.cpp:220:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krejection_min_iters[m[K’ was not declared in this scope; did you mean ‘[01m[Krejection_min_iters_[m[K’?
+[3.815s]   220 |     [01;31m[Krejection_min_iters[m[K
+[3.815s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.815s]       |     [32m[Krejection_min_iters_[m[K
+[8.203s] gmake[2]: *** [CMakeFiles/main_node.dir/build.make:90: CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o] Error 1
+[8.203s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+[8.203s] gmake: *** [Makefile:146: all] Error 2
+[8.205s] Invoked command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --build /home/farness/ws_dicp_cpp/build/farness_dicp_cpp -- -j16 -l16

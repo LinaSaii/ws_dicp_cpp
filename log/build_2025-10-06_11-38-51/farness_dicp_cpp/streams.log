@@ -1,0 +1,34 @@
+[0.009s] Invoking command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --build /home/farness/ws_dicp_cpp/build/farness_dicp_cpp -- -j16 -l16
+[0.077s] [ 16%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o[0m
+[17.032s] [ 33%] [32m[1mLinking CXX executable main_node[0m
+[18.588s] [100%] Built target main_node
+[18.597s] Invoked command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --build /home/farness/ws_dicp_cpp/build/farness_dicp_cpp -- -j16 -l16
+[18.605s] Invoking command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --install /home/farness/ws_dicp_cpp/build/farness_dicp_cpp
+[18.610s] -- Install configuration: ""
+[18.610s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/lib/farness_dicp_cpp/main_node
+[18.618s] -- Set runtime path of "/home/farness/ws_dicp_cpp/install/farness_dicp_cpp/lib/farness_dicp_cpp/main_node" to ""
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include/
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/math_utils.hpp
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/doppler_icp_solver.hpp
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/pointcloud_loader.hpp
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/include//farness_dicp_cpp/doppler_icp_stitcher.hpp
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/launch
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/launch/dicp_stitcher.launch.py
+[18.618s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/config/dicp_params.yaml
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/package_run_dependencies/farness_dicp_cpp
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/parent_prefix_path/farness_dicp_cpp
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/ament_prefix_path.sh
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/ament_prefix_path.dsv
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/path.sh
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/environment/path.dsv
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.bash
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.sh
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.zsh
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/local_setup.dsv
+[18.618s] -- Installing: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/package.dsv
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/ament_index/resource_index/packages/farness_dicp_cpp
+[18.618s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/cmake/farness_dicp_cppConfig.cmake
+[18.619s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/cmake/farness_dicp_cppConfig-version.cmake
+[18.619s] -- Up-to-date: /home/farness/ws_dicp_cpp/install/farness_dicp_cpp/share/farness_dicp_cpp/package.xml
+[18.620s] Invoked command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --install /home/farness/ws_dicp_cpp/build/farness_dicp_cpp

@@ -1,0 +1,18 @@
+[0.009s] Invoking command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --build /home/farness/ws_dicp_cpp/build/farness_dicp_cpp -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[0.084s] [ 16%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_node.cpp.o[0m
+[0.087s] [ 33%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/pointcloud_loader.cpp.o[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/doppler_icp_solver.cpp.o[0m
+[0.088s] [ 66%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/doppler_icp_stitcher.cpp.o[0m
+[2.055s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_solver.cpp:[m[K In member function ‘[01m[KDopplerICPResult DopplerICPSolver::solve(const std::vector<LidarPoint>&, const std::vector<LidarPoint>&, int, double, double, double, double, double, int, double, double, int, int, int, bool, double, int)[m[K’:
+[2.055s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_solver.cpp:188:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.055s]   188 | return result;
+[2.055s]       |               [01;31m[K^[m[K
+[2.055s] [01m[K/home/farness/ws_dicp_cpp/src/farness_dicp_cpp/src/doppler_icp_solver.cpp:33:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.055s]    33 | [01;36m[K{[m[K
+[2.055s]       | [01;36m[K^[m[K
+[3.724s] gmake[2]: *** [CMakeFiles/main_node.dir/build.make:104: CMakeFiles/main_node.dir/src/doppler_icp_solver.cpp.o] Error 1
+[3.724s] gmake[2]: *** Waiting for unfinished jobs....
+[16.002s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+[16.002s] gmake: *** [Makefile:146: all] Error 2
+[16.004s] Invoked command in '/home/farness/ws_dicp_cpp/build/farness_dicp_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farness/ws_new/install/lidar_frame_stitching:/home/farness/ws_new/install/farness_dicp:/opt/ros/humble /usr/bin/cmake --build /home/farness/ws_dicp_cpp/build/farness_dicp_cpp -- -j16 -l16
